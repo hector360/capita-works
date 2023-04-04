@@ -1,0 +1,13 @@
+{
+  "entryPoints": [
+    "src/controllers/*.ts",
+    "src/functions/*.ts",
+    "src/routes/*.ts",
+    "src/app.ts",
+    "src/index.ts",
+],
+  "out": "docs",
+  "exclude": ["**/*.spec.ts"],
+  "theme": "default",
+  "excludePrivate": true
+}
